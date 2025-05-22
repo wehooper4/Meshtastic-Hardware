@@ -9,11 +9,11 @@ Dont sell these without working out something with me first. Any derviitves shal
 
 Install config for standard hat:
 ```
-wget –P /etc/meshtasticd/config.d/ https://github.com/wehooper4/Meshtastic-Hardware/blob/main/NebraHat/NebraHat_1W.yaml
+wget –O /etc/meshtasticd/config.d/ https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NebraHat/NebraHat_1W.yaml
 ```
 
 Install Config for 2Watt version:
 ```
-wget –P /etc/meshtasticd/config.d/ https://github.com/wehooper4/Meshtastic-Hardware/blob/main/NebraHat/NebraHat_2W.yaml
+wget –O /etc/meshtasticd/config.d/ https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NebraHat/NebraHat_2W.yaml
 ```
 
