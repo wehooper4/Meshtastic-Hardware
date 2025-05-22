@@ -1,0 +1,12 @@
+# https://github.com/wehooper4/Meshtastic-Hardware/tree/main/NebraHat
+# Use for 2 watt hat
+Lora:
+  Module: sx1262  # Starter Edition SX1262 I2C Raspberry Pi HAT
+  DIO2_AS_RF_SWITCH: true
+  DIO3_TCXO_VOLTAGE: true
+  SX126X_MAX_POWER: 8
+  CS: 8
+  IRQ: 22
+  Busy: 4
+  Reset: 18
+  RXen: 25
