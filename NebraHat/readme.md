@@ -3,7 +3,7 @@ This is a hat for outdoor Nebra Miners or standard Paspbary Pi's for Meshtastic.
 Pinout and design inspited by Mark Briss's starter edditon hat:
 https://github.com/markbirss/lora-starter-edition-sx1262-i2c
 
-Dont sell these without working out something with me first. Any derviitves shall be at least open scamatic.
+**Dont sell these without working out something with me first.** Any derivitives shall be at least open scamatic.
 
 Install config for standard hat:
 ```
