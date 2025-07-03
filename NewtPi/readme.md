@@ -9,6 +9,9 @@ Two Watt Pi Hat for Meshtastic usage
 * PWM Fan Output
 * DC Power in/out header
 
+![Photo of NewtPi Hat](/static/IMG_2806.jpeg)
+
+
 WARMING: Power limit MUST be set in YAML to prevent PA damage.
 
 Instalation: https://meshtastic.org/docs/hardware/devices/linux-native-hardware/
