@@ -6,7 +6,7 @@ https://github.com/markbirss/lora-starter-edition-sx1262-i2c
 **Dont sell these without working out something with me first.** Any derivitives shall be at least open scamatic.
 
 **1 Watt Hat**
-* 1 Watt E22 900mhz Lora radio with TXTO and LNA
+* 1 Watt E22 900mhz Lora radio with TXCO and LNA
 * SMA support
 
 **2 Watt Hat**
