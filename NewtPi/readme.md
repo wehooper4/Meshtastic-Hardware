@@ -1,4 +1,4 @@
-Two Watt Pi Hat for Meshtastic usage
+Two Watt Amateur Radio LORA Pi Hat for Meshtastic ham sites, APRS, ect.
 
 * E22-900M33S Radio Module with 33dbm PA and LNA
 * High sensitivity ATGM336H GNSS for positioning and timing
