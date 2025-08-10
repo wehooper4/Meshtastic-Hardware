@@ -29,6 +29,18 @@ If you wish to keep the original USB hub for wifi or other uses, you can assembe
 ![Photo of Nebra Hat in Nebra](/static/IMG_2808.jpeg)
 ![Photo of Nebra Hat in Nebra with hub](/static/IMG_2809.jpeg)
 
+## Nebra Conversion
+
+Remove LoraWan concentrator (it's not useful for anything but Lorawan projects, and if you're doing that you're doing that why are you looking at amiute radio hardware?)
+
+Remove the EMMC SD card from the nebra
+
+Plug the card into a computer
+
+Image card with rasbarian using the imaging tool: https://www.raspberrypi.com/software/
+
+The Nebra miner uses a Pi compute module 3. Rasbarian lite is recomended.
+
 ## Meshtastic Usage
 
 Instalation: https://meshtastic.org/docs/hardware/devices/linux-native-hardware/
