@@ -22,10 +22,9 @@ WARMING: SX1262 power level MUST be set to 8 or lower to prevent PA damage.
 
 ## Legal Notice
 This is **Amateur Radio equipment** under FCC Part 97.
-
 * It is not certified for unlicensed operation.
-
 * Users must comply with all applicable regulations in their jurisdiction.
+* While compatible with Meshtastic firmware, operation in the United States requires compliance with FCC Part 97 rules.
 
 ## Raspberry Pi 40-Pin Header Pinout (HAT)
 
