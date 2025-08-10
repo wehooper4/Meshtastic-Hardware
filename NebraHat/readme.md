@@ -1,6 +1,6 @@
 Lora Hats for use with Raspbery Pi 2-5, the Nebra Outdoor miner, or other SBC's with pi compatable pinouts to convert them to Meshtastic.
 
-Pinout and design inspited by Mark Briss's starter edditon hat:
+Pinout inspited by Mark Briss's starter edditon hat:
 https://github.com/markbirss/lora-starter-edition-sx1262-i2c
 
 **Dont sell these without working out something with me first.** Any derivitives shall be at least open scamatic.
@@ -35,3 +35,8 @@ Install Config for 2Watt version:
 wget –O /etc/meshtasticd/config.d/ https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NebraHat/NebraHat_2W.yaml
 ```
 
+## License & Use Terms
+
+The design files in this repository (including schematics, PCB layouts, and Gerber files) are provided for **personal, non-commercial use**. You may make and modify these designs for yourself, but you may **not** manufacture, sell, or distribute these designs, boards, or derivatives for profit without my explicit written permission.
+
+If you create derivative works based on these files, you must keep the schematic open and available under the same terms. By using these files, you agree to abide by these conditions.
