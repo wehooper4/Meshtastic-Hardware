@@ -1,14 +1,13 @@
 ## Overview
 The NewtPi is a 2 Watt 915mhz Amateur Radio (Part 97) SX1262 development board in Raspberry Pi HAT form factor.
 
-It provides and interface for fotware  and intended for experimentation, development, and integration into projects within the privileges of an amateur license.
+This is a simple “dumb” radio module, the software or "firmware" to drive it run as a application on the host Raspbery PI or other SBC. This gives the end operator the ability to use this with their favrote open sourve amiture radio projects (Meshtastic, Lora-APRS, ect) or develop thir own experimental radio software.
 
-Two Watt Amateur Radio SX1262 Pi Hat for Meshtastic ham sites, APRS, ect.
 
 ## Hardware Features
 * E22-900M33S Radio Module with 33dbm PA and LNA
 * High sensitivity ATGM336H GNSS for positioning and timing
-* QWIIC connectors for I2C sensors
+* I2C breakout QWIIC connectors for sensors, screens, and other I/O
 * Filtered power supply
 * Low noise 4-layer PCB
 * Provisions for SMA connector for LORA radio
