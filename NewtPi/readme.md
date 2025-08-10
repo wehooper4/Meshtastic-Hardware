@@ -28,7 +28,7 @@ WARMING: SX1262 power level MUST be set to 8 or lower to prevent PA damage.
 | 8   | TXD0         | GPIO14   | UART0 TX (pTX)         |
 | 9   | GND          | –        | Ground                 |
 | 10  | RXD0         | GPIO15   | UART0 RX (pRX)         |
-| 11  | GPIO17       | 17       | FAN_EN                 |
+| 11  | GPIO17       | 17       | FAN_EN (high enable)   |
 | 12  | GPIO18       | 18       | FAN_PWM                |
 | 13  | GPIO27       | 27       |                        |
 | 14  | GND          | –        | Ground                 |
@@ -69,7 +69,7 @@ At step "Meshtasticd Configuration" use this command to install config file:
 wget -O /etc/meshtasticd/config.d/NewtPi-2w.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NewtPi/NewtPi-2w.yaml
 ```
 
-*GPS info:*
+## GPS information
 
 GPS on /dev/ttyAMA0 or /dev/ttyS0
 
@@ -77,8 +77,13 @@ PPS on GPIO 4
 
 
 
-*Fan info:*
+## Enabling Fan Control
 
-DC fan enable: GPIO 17 (high enable)
+Add the following lines to `/boot/config.txt` and reboot.
 
-PWM fan speed control: GPIO 18
+```text
+# On/Off fan on GPIO17 (turns on at 55 °C, off at 50 °C)
+dtoverlay=gpio-fan,gpiopin=17,temp=55000,hysteresis=5000
+
+# PWM fan on GPIO18 (multi-speed based on temperature)
+dtoverlay=pwm-gpio-fan,fan_gpio=18,fan_temp0=50000,fan_temp0_hyst=5000,fan_temp0_speed=100,fan_temp1=60000,fan_temp1_speed=180,fan_temp2=70000,fan_temp2_speed=255
