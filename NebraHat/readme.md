@@ -1,7 +1,7 @@
 ## Overview
 915mhz Amateur Radio (Part 97) SX1262 development board in Raspberry Pi HAT form factor designe to work with Raspbery Pi 2-5, Nebra Outdoor miner, or other SBC's with pi compatable pinouts. This 
 
-This is a simple “dumb” radio module, the software or "firmware" to drive it run as a application on the host Raspbery PI. This gives the end operator the ability to use this with their favrote open sourve amiture radio projects (Meshtastic, Lora-APRS, ect) or develop thir own experimental radio software.
+This is a simple “dumb” radio module, the software or "firmware" to drive it run as a application on the host Raspbery PI. This gives the end operator the ability to use this with their favrote open sourve amiture radio projects (Meshtastic, Lora-APRS, ect) or develop their own experimental radio software.
 
 This is a pin compatable drop in board for the Nebra miner, and does not require bodge wires to work like others hats do.
 
@@ -66,5 +66,5 @@ If you create derivative works based on these files, you must keep the schematic
 This is **Amateur Radio equipment** under FCC Part 97.
 
 * It is not certified for unlicensed operation.
-
 * Users must comply with all applicable regulations in their jurisdiction.
+* While compatible with Meshtastic firmware, operation in the United States requires compliance with FCC Part 97 rules.
