@@ -5,3 +5,6 @@ It's the cheap one!
 Client focused. boost converter, liner charger, no solar input, 2-layer, DIY assembaly possible fo the Seeed Xaio and E22-900M30S
 
 The rest really needs to be PCBA's
+
+
+DO NOT SELL THESE WITHOUT LISCENSING THEM FROM ME. You are free to use this for your own making though.
