@@ -89,7 +89,7 @@ This is a simple “dumb” radio module, the software or "firmware" to drive it
 | -8            | 19.0               |
 | -9            | 17.7               |
 
-Not that in Meshtastic "0" is a special reserved power level. If using radiolib or another SX1262 access libary, it should be a valid number
+Note that in Meshtastic "0" is a special reserved power level taht sets the radio to full output. If using radiolib or another SX1262 access libary, it should be a valid number
 
 **DO NOT SET THE POWER LEVEL MORE THAN 8** Doing so will damage the PA. If you software package supports capping it, I strongly advise you do so.
 
