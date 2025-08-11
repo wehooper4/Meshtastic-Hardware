@@ -65,7 +65,7 @@ This is a simple “dumb” radio module, the software or "firmware" to drive it
 | 39  | GND          | –        | Ground                 |
 | 40  | GPIO21       | 21       | NSS                    |
 
-## SX1263 Power to Output Power Table
+## SX1262 Power Setting to Output Power Table
 
 | Power Setting | Output Power (dBm) |
 |---------------|--------------------|
