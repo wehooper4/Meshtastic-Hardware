@@ -18,13 +18,7 @@ This is a simple “dumb” radio module, the software or "firmware" to drive it
 ![Photo of NewtPi Hat](/static/IMG_2806.jpeg)
 
 
-WARMING: SX1262 power level MUST be set to 8 or lower to prevent PA damage.
-
-## Legal Notice
-This is **Amateur Radio equipment** under FCC Part 97.
-* It is not certified for unlicensed operation.
-* Users must comply with all applicable regulations in their jurisdiction.
-* While compatible with Meshtastic firmware, operation in the United States requires compliance with FCC Part 97 rules.
+**WARMING:** SX1262 power level MUST be set to 8 or lower to prevent PA damage.
 
 ## Raspberry Pi 40-Pin Header Pinout (HAT)
 
@@ -71,6 +65,33 @@ This is **Amateur Radio equipment** under FCC Part 97.
 | 39  | GND          | –        | Ground                 |
 | 40  | GPIO21       | 21       | NSS                    |
 
+## SX1263 Power to Output Power Table
+
+| Power Setting | Output Power (dBm) |
+|---------------|--------------------|
+| 9             | 33.4               |
+| 8             | 32.9               |
+| 7             | 32.2               |
+| 6             | 31.7               |
+| 5             | 31.2               |
+| 4             | 29.7               |
+| 3             | 29.6               |
+| 2             | 28.9               |
+| 1             | 27.8               |
+| 0             | FULL BEANS         |
+| -1            | 26.0               |
+| -2            | 24.9               |
+| -3            | 24.0               |
+| -4            | 23.0               |
+| -5            | 22.2               |
+| -6            | 21.0               |
+| -7            | 20.0               |
+| -8            | 19.0               |
+| -9            | 17.7               |
+
+Not that in Meshtastic "0" is a special reserved power level. If using radiolib or another SX1262 access libary, it should be a valid number
+
+**DO NOT SET THE POWER LEVEL MORE THAN 8** Doing so will damage the PA. If you software package supports capping it, I strongly advise you do so.
 
 ## Meshtastic Usage
 
@@ -99,3 +120,10 @@ dtoverlay=gpio-fan,gpiopin=17,temp=55000,hysteresis=5000
 
 # PWM fan on GPIO18 (multi-speed based on temperature)
 dtoverlay=pwm-gpio-fan,fan_gpio=18,fan_temp0=50000,fan_temp0_hyst=5000,fan_temp0_speed=100,fan_temp1=60000,fan_temp1_speed=180,fan_temp2=70000,fan_temp2_speed=255
+```
+
+## Legal Notice
+This is **Amateur Radio equipment** under FCC Part 97.
+* It is not certified for unlicensed operation.
+* Users must comply with all applicable regulations in their jurisdiction.
+* While compatible with Meshtastic firmware, operation in the United States requires compliance with FCC Part 97 rules.
