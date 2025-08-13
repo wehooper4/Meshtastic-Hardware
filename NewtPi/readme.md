@@ -94,7 +94,7 @@ Note that in Meshtastic, "0" is a special reserved power level that sets the rad
 
 ## Meshtastic Usage
 
-Instalation: https://meshtastic.org/docs/hardware/devices/linux-native-hardware/
+Installation: https://meshtastic.org/docs/hardware/devices/linux-native-hardware/
 
 At step "Meshtasticd Configuration" use this command to install config file:
 ```
