@@ -1,8 +1,7 @@
 ## Overview
-The NewtPi is a 2 Watt 915mhz Amateur Radio (Part 97) SX1262 development board in Raspberry Pi HAT form factor.
+The NewtPi is a 2 Watt 915MHz Amateur Radio (Part 97) SX1262 development board in a Raspberry Pi HAT form factor.
 
-This is a simple “dumb” radio module, the software or "firmware" to drive it run as a application on the host Raspbery PI or other SBC. This gives the end operator the ability to use this with their favrote open sourve amiture radio projects (Meshtastic, Lora-APRS, ect) or develop thir own experimental radio software.
-
+This is a simple “dumb” radio module. The software or "firmware" to drive it runs as an application on the host Raspberry Pi or other SBC. This gives the end operator the ability to use this with their favorite open-source amateur radio projects (Meshtastic, LoRa-APRS, etc.) or to develop their own experimental radio software.
 
 ## Hardware Features
 * E22-900M33S Radio Module with 33dbm PA and LNA
@@ -18,7 +17,7 @@ This is a simple “dumb” radio module, the software or "firmware" to drive it
 ![Photo of NewtPi Hat](/static/IMG_2806.jpeg)
 
 
-**WARMING:** SX1262 power level MUST be set to 8 or lower to prevent PA damage.
+**WARNING:** SX1262 power level MUST be set to 8 or lower to prevent PA damage.
 
 ## Raspberry Pi 40-Pin Header Pinout (HAT)
 
@@ -74,7 +73,7 @@ This is a simple “dumb” radio module, the software or "firmware" to drive it
 | 7             | 32.2               |
 | 6             | 31.7               |
 | 5             | 31.2               |
-| 4             | 29.7               |
+| 4             | 30.7               |
 | 3             | 29.6               |
 | 2             | 28.9               |
 | 1             | 27.8               |
@@ -89,9 +88,9 @@ This is a simple “dumb” radio module, the software or "firmware" to drive it
 | -8            | 19.0               |
 | -9            | 17.7               |
 
-Note that in Meshtastic "0" is a special reserved power level taht sets the radio to full output. If using radiolib or another SX1262 access libary, it should be a valid number
+Note that in Meshtastic, "0" is a special reserved power level that sets the radio to full output. If using radiolib or another SX1262 access library, it should be a valid number.
 
-**DO NOT SET THE POWER LEVEL MORE THAN 8** Doing so will damage the PA. If you software package supports capping it, I strongly advise you do so.
+**DO NOT SET THE POWER LEVEL HIGHER THAN 8.** Doing so will damage the PA. If your software package supports capping it, I strongly advise you to do so.
 
 ## Meshtastic Usage
 
