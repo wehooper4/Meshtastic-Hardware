@@ -53,7 +53,7 @@ wget –O /etc/meshtasticd/config.d/NebraHat_1W.yaml https://github.com/wehooper
 
 Install Config for 2Watt version:
 ```
-wget –O /etc/meshtasticd/config.d/NebraHat_2W.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NebraHat/NebraHat_2W.yaml
+wget -O /etc/meshtasticd/config.d/NebraHat_2W.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NebraHat/NebraHat_2W.yaml
 ```
 
 ## License
