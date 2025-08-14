@@ -31,7 +31,7 @@ If you wish to keep the original USB hub for wifi or other uses, you can assembe
 
 ## Nebra Conversion
 
-Remove LoraWan concentrator (it's not useful for anything but Lorawan projects, and if you're doing that you're doing that why are you looking at amiute radio hardware?)
+Remove LoraWan concentrator (it's not useful for anything but Lorawan projects, and if you're doing that you're doing that why are you looking at amateur radio hardware?)
 
 Remove the EMMC SD card from the nebra
 
