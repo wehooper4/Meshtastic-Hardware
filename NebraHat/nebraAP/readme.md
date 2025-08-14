@@ -1,0 +1,1 @@
+Information for using the stock USB stick in the nebra as an AP. this lets you admin the thing on the top of towers from your phone. Capatave portal to the software of your choice (ie Meshtastic) as well.
