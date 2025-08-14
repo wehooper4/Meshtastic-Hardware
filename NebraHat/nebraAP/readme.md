@@ -18,3 +18,8 @@ sudo reboot
 basename $(readlink /sys/class/net/wlan0/device/driver)
 ...should display 8188eu
 ```
+## Dualband Upgrade
+
+Info here for "better" alternive USB sticks.
+
+https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md#ac580--ac600--ac650---usb-2---24-ghz-and-5-ghz-wifi-5
