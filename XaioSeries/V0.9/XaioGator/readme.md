@@ -1,4 +1,4 @@
-This was the client node with GPS. 5 were successfuly field validated.
+This was the client node with GPS, proving the new GPS design and USB charging capabilities. 5 were successfuly field validated.
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
