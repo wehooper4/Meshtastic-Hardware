@@ -62,7 +62,7 @@ sudo apt install pipx && pipx install "meshtastic[cli]"
 pipx ensurepath
 ```
 
-Part 97 compliance:
+To enable part 97 compliance:
 ```
 meshtastic  --set-ham 'CALLSIGN'
 ```
