@@ -1,4 +1,4 @@
-Client node!
+Ham Client node!
 
 2W radio
 
