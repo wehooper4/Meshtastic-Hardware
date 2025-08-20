@@ -100,6 +100,16 @@ At step "Meshtasticd Configuration" use this command to install config file:
 ```
 wget -O /etc/meshtasticd/config.d/NewtPi-2w.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NewtPi/NewtPi-2w.yaml
 ```
+Install Meshtastic CLI (for your sanity):
+```
+sudo apt install pipx && pipx install "meshtastic[cli]"
+pipx ensurepath
+```
+
+Part 97 compliance:
+```
+meshtastic  --set-ham 'CALLSIGN'
+```
 
 ## GPS information
 
