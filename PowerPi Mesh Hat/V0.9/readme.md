@@ -1,5 +1,4 @@
-Inital version of the hat
-
+This is an arcived project for the inital experiments on a premium amiture radio sx1262 pi hat. No further develpoment is active on this. 
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
