@@ -1,11 +1,12 @@
 Inital version of the hat
 
 
-## License & Use Terms
+## License
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-The design files in this repository (including schematics, PCB layouts, and Gerber files) are provided for **personal, non-commercial use**. You may make and modify these designs for yourself, but you may **not** manufacture, sell, or distribute these designs, boards, or derivatives for profit without my explicit written permission.
+[![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-If you create derivative works based on these files, you must keep the schematic and design files open and available under the same terms. By using these files, you agree to abide by these conditions.
+**In plain English:** You are free to use and modify these designs for personal projects and to manufacture boards for yourself. However, you **may not** sell or distribute these designs or any boards made from them for any reason without my explicit written permission.
 
 ## Legal Notice
 This is **Amateur Radio equipment** under FCC Part 97.
