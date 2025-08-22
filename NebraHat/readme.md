@@ -50,12 +50,12 @@ Installation: https://meshtastic.org/docs/hardware/devices/linux-native-hardware
 At the "Meshtasticd Configuration" step, use this command to install the config file:
 
 ```
-wget -O /etc/meshtasticd/config.d/NebraHat_1W.yaml [https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NebraHat/NebraHat_1W.yaml](https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NebraHat/NebraHat_1W.yaml)
+wget -O /etc/meshtasticd/config.d/NebraHat_1W.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NebraHat/NebraHat_1W.yaml
 ```
 
 Install Config for 2-Watt version:
 ```
-wget -O /etc/meshtasticd/config.d/NebraHat_2W.yaml [https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NebraHat/NebraHat_2W.yaml](https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NebraHat/NebraHat_2W.yaml)
+wget -O /etc/meshtasticd/config.d/NebraHat_2W.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/NebraHat/NebraHat_2W.yaml
 ```
 
 Install Meshtastic CLI (for your sanity):
