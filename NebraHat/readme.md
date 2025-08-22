@@ -9,7 +9,7 @@ This is a pin-compatible drop-in board for the Nebra miner and does not require 
 Pinout inspired by Mark Birss's starter edition hat:
 https://github.com/markbirss/lora-starter-edition-sx1262-i2c
 
-## Hardware Featureså
+## Hardware Features
 
 **1 Watt Radio Hat**
 * 1 Watt E22 900MHz LoRa radio with TCXO and LNA
@@ -36,7 +36,7 @@ If you wish to keep the original USB hub for wifi or other uses, you can assembl
 ## How to Purchace
 
 [![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/JJFE6EMD4NHP2)
-
+This product is made available via a secure PayPal checkout.
 
 ## SX1262 Power Setting to Output Power Table
 
