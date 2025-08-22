@@ -35,9 +35,11 @@ If you wish to keep the original USB hub for wifi or other uses, you can assembl
 ![Photo of Nebra Hat in Nebra](/static/IMG_2808.jpeg)
 ![Photo of Nebra Hat in Nebra with hub](/static/IMG_2809.jpeg)
 
-##SX1262 Power Setting to Output Power Table 
+
+## SX1262 Power Setting to Output Power Table
 
 **Bandpass Filter Output**
+
 |Power Setting | Output Power (dBm)|
 |---|---|
 |9 | 29.8|
