@@ -33,7 +33,7 @@ If you wish to keep the original USB hub for wifi or other uses, you can assembl
 ![Photo of Nebra Hat in Nebra](/static/IMG_2808.jpeg)
 ![Photo of Nebra Hat in Nebra with hub](/static/IMG_2809.jpeg)
 
-## How to Purchace
+## How to Buy
 
 [![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/JJFE6EMD4NHP2)
 
