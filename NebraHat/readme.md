@@ -35,9 +35,7 @@ If you wish to keep the original USB hub for wifi or other uses, you can assembl
 
 ## How to Purchace
 
-[![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)]([YOUR_PAYPAL_LINK](https://www.paypal.com/ncp/payment/JJFE6EMD4NHP2))
-
-
+[![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/JJFE6EMD4NHP2)
 
 
 ## SX1262 Power Setting to Output Power Table
