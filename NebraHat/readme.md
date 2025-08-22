@@ -11,18 +11,22 @@ https://github.com/markbirss/lora-starter-edition-sx1262-i2c
 
 ## Hardware Features
 
-**1 Watt Hat**
+**1 Watt Radio Hat**
 * 1 Watt E22 900MHz LoRa radio with TCXO and LNA
 * SMA support
 
-**2 Watt Hat**
+**2 Watt Radio Hat**
 * 2 Watt E22 900MHz radio with TCXO and LNA
 * 5v power rail filtering
 * 915MHz bandpass filter
+  * 902-926mhz pass band
+  * ~3db inserion loss
 * Indirect lightning/ESD protection
 * Temperature/Humidity Sensor
 * RX/TX indicator LEDs
 * External RX/TX indicator header support
+
+
 
 ![Photo of 2w Nebra Hats](/static/IMG_2807.jpeg)
 
