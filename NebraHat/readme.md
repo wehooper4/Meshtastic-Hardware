@@ -35,6 +35,33 @@ If you wish to keep the original USB hub for wifi or other uses, you can assembl
 ![Photo of Nebra Hat in Nebra](/static/IMG_2808.jpeg)
 ![Photo of Nebra Hat in Nebra with hub](/static/IMG_2809.jpeg)
 
+##SX1262 Power Setting to Output Power Table 
+
+**Bandpass Filter Output**
+|Power Setting | Output Power (dBm)|
+|---|---|
+|9 | 29.8|
+|8 | 29.6|
+|7 | 29.3|
+|6 | 28.9|
+|5 | 28.5|
+|4 | 28.1|
+|3 | 27.4|
+|2 | 26.9|
+|1 | 26|
+|0 | 29.8|
+|-1 | 24.4|
+|-2 | 23.4|
+|-3 | 22|
+|-4 | 21.3|
+|-5 | 20.5|
+|-6 | 18.8|
+|-7 | 17.8|
+|-8 | 16.7|
+|-9 | 15.4|
+
+Note power levels may be higher host other then nebra. If using the IPEX connector right on the radio bypassing the filter expect ~3db higher signal level. This is not adviced due to the loss in receve performance.
+
 ## Nebra Conversion
 
 Remove the LoRaWAN concentrator (it's not useful for anything but LoRaWAN projects).
