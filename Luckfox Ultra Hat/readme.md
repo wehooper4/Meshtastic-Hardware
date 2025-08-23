@@ -5,8 +5,11 @@ This is a amiture radio x1262 hat for the Luckfox Ultra seres of SBC's.
 
 ## Porkcube the ledgand
 
-The following edits are for the no-longer available Ubuntu based image for the eMMC flash:
+Porkcube developed the config and YAML on the no-longer available Ubuntu based image for the eMMC flash:
   - `Ubuntu_Luckfox_Lyra_Ultra_W_eMMC_250417`
+
+Current version is avalible here:
+https://forums.luckfox.com/viewtopic.php?t=1760
 
 ## For Luckfox Lyra Ultra W:
 
@@ -20,25 +23,22 @@ SPI0_MOSI_RM_IO=6
 SPI0_CS_RM_IO=10
 ```
 
-`/etc/meshtasticd/config.d/lyra_ultra_hat.yaml` `meshtasticd` cfg:
-```
----
-Lora:
-  Module: sx1262
-  DIO2_AS_RF_SWITCH: true
-  DIO3_TCXO_VOLTAGE: true
-  CS: 10
-  IRQ: 5
-  Busy: 11
-  Reset: 9
-  RXen: 14
+At the "Meshtasticd Configuration" step, use this command to install the config file:
 
-  spidev: spidev0.0 #pins are (CS=10, CLK=8, MOSI=6, MISO=7)
-  spiSpeed: 2000000
-
-General:
-  MACAddressSource: eth0
 ```
+wget -O /etc/meshtasticd/config.d/lyra_ultra_hat_1W.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/Luckfox%20Ultra%20Hat/lyra_ultra_hat_1W.yaml
+```
+
+Install Config for 2-Watt version:
+```
+wget -O /etc/meshtasticd/config.d/lyra_ultra_hat_2W.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/Luckfox%20Ultra%20Hat/lyra_ultra_hat_2W.yaml
+```
+
+To enable Part 97 compliance:
+```
+meshtastic --set-ham 'CALLSIGN'
+```
+
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
