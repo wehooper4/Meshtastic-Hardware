@@ -1,4 +1,4 @@
-<img src="/static/ultra_hat_logo.png" alt="Logo" width="200">
+<img src="/static/ultra_hat_logo.png" alt="Logo" width="200"> 
 ## Luckfox Ultra Hat
 
 This is a amiture radio x1262 hat for the Luckfox Ultra seres of SBC's. It's confimred working on the Lyra, but software configuration has not been developed for the others at this time. The Luckfox Ultra platform makes a fantastic inexpensive linux radio base, as it has full 12.5W POE avalible for fixed basestations, and ulra low power consumption for solar ones.
