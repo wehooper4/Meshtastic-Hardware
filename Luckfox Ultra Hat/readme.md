@@ -6,6 +6,12 @@ This is a amiture radio x1262 hat for the Luckfox Ultra seres of SBC's. It's con
 
 ![Photo of Luckfox Ultra Hats](/static/IMG_3499.jpeg)
 
+## How to Buy
+
+[![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/MPGLQUXB9TF82)
+
+This product is made available via a secure PayPal checkout.
+
 ## Porkcube the ledgand
 
 Porkcube developed the config and YAML on the no-longer available Ubuntu based image for the eMMC flash:
