@@ -4,6 +4,8 @@
 
 This is a amiture radio x1262 hat for the Luckfox Ultra seres of SBC's. It's confimred working on the Lyra, but software configuration has not been developed for the others at this time. The Luckfox Ultra platform makes a fantastic inexpensive linux radio base, as it has full 12.5W POE avalible for fixed basestations, and ulra low power consumption for solar ones.
 
+![Photo of Luckfox Ultra Hats](/static/IMG_3499.jpeg)
+
 ## Porkcube the ledgand
 
 Porkcube developed the config and YAML on the no-longer available Ubuntu based image for the eMMC flash:
