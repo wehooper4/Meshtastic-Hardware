@@ -19,6 +19,12 @@ This is a simple “dumb” radio module. The software or "firmware" to drive it
 
 **WARNING:** SX1262 power level MUST be set to 8 or lower to prevent PA damage.
 
+## How to Buy
+
+[![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/PNLGPG7BGGWL6)
+
+This product is made available via a secure PayPal checkout.
+
 ## Raspberry Pi 40-Pin Header Pinout (HAT)
 
 | Pin | Name         | BCM GPIO | Function / Notes      |
