@@ -22,6 +22,12 @@ https://forums.luckfox.com/viewtopic.php?t=1760
 
 ## For Luckfox Lyra Ultra W:
 
+Default user is lyra/password luckfox
+
+Run ```sudo luckfox-config```
+
+enable SPI0
+
 Make sure these lines are present in `/etc/luckfox.conf` to enable SPI, reboot required to take effect:
 ```
 SPI0_STATUS=1
