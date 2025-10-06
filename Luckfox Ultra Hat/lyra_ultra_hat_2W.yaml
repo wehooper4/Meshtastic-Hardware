@@ -7,7 +7,7 @@ Lora:
   DIO3_TCXO_VOLTAGE: true
   SX126X_MAX_POWER: 8
   CS: 10
-  IRQ: 5
+  IRQ: 4
   Busy: 11
   Reset: 9
   RXen: 14
