@@ -12,7 +12,13 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 
 [![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**In plain English:** You are free to use and modify these designs for personal projects and to manufacture boards for yourself. However, you **may not** sell or distribute these designs or any boards made from them for any reason without my explicit written permission.
+**In plain English:**
+
+You are free to **share** and **modify** these for personal use, but you must:
+
+1.  **Give credit** to the original authors (vidplace7, wehooper4).
+2.  **NOT** use them for commercial purposes (you cannot sell the designs or any PCBA's/products made from them).
+3.  **Share any modifications** or derivatives you create under this **same CC BY-NC-SA 4.0 license**.
 
 ## Legal Notice
 This is **Amateur Radio equipment** under FCC Part 97.
