@@ -4,8 +4,6 @@ The name XaioGator playfully come from the ham term "alligator", refering to a r
 
 These are client focused nodes inteded to toss on a bag or mount in a car. Some varients have secondary solar capablity, but are not a full featured as the XolarXao
 
-Verisons with the E22P use FCC marked radios. Versions with the standard E22 are intended for part 97 use only. The operator is responsable to maintain regulatory compliance in their region.
-
 ## Varients
 * Xaiogator  
   GPS
