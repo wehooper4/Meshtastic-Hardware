@@ -1,11 +1,15 @@
-## Client Part 97 Node
+## Client Node
 
 The name XaioGator playfully come from the ham term "alligator", refering to a radio setup wth all mouth (lots of TX power) but no ears. That's not exacly the case with these, because even though they do have elevated TX power the eByte E22 radios these are based on have a 15-18db LNA. But as the early prototypes where called alligatos, it was decided to lean into it.
 
-## Versions
+These are client focused nodes inteded to toss on a bag or mount in a car. Some varients have secondary solar capablity, but are not a full featured as the XolarXao
+
+Verisons with the E22P use FCC marked radios. Versions with the standard E22 are intended for part 97 use only. The operator is responsable to maintain regulatory compliance in their region.
+
+## Varients
 * Xaiogator  
   GPS
 * Xaiogator+  
-  GPS, Bandpass Filter, and SMA plug for direct antenna connection
-* Xaiogator Lite  
-  Reduced cost fully open version without GPS
+  GPS, Bandpass Filter, and SMA connector for direct antenna connection
+* Xaiogator Lite (+)
+  Reduced cost version without GPS. SMA connector for direct antenna connection
