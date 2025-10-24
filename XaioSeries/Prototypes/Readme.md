@@ -1,3 +1,3 @@
 ## Prototype Builds
 
-These are the protypes that lead to the current XaioSeries.
+These are the protypes and earlyer versions that lead to the current XaioSeries.
