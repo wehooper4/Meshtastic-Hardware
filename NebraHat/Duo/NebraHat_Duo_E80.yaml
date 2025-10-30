@@ -1,0 +1,35 @@
+Lora:
+  Module: lr1121
+  IRQ: 27
+  Busy: 17
+  Reset: 18
+  DIO3_TCXO_VOLTAGE: 1.8
+
+  spidev: spidev0.1 # pins are (CS=7, CLK=11, MOSI=10, MISO=9)
+  spiSpeed: 2000000
+
+  rfswitch_table:
+    pins:
+      - DIO5
+      - DIO6
+    MODE_STBY:
+      - LOW
+      - LOW
+    MODE_RX:
+      - HIGH
+      - LOW
+    MODE_TX:
+      - HIGH
+      - HIGH
+    MODE_TX_HP:
+      - LOW
+      - HIGH
+    MODE_TX_HF:
+      - LOW
+      - LOW
+    MODE_GNSS:
+      - LOW
+      - LOW
+    MODE_WIFI:
+      - LOW
+      - LOW
