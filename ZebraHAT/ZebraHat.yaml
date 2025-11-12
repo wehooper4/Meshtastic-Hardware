@@ -1,0 +1,13 @@
+# https://github.com/wehooper4/Meshtastic-Hardware/tree/main/NebraHat
+# Use for 2 watt hat
+Lora:
+  Module: sx1262  # Nebra SX1262 Pi Hat - 2W
+  DIO2_AS_RF_SWITCH: true
+  DIO3_TCXO_VOLTAGE: true
+  SX126X_MAX_POWER: 18 
+  CS: 8 # Depending on how you set up the overlays you dont need this
+  IRQ: 22
+  Busy: 27
+  Reset: 22
+I2C:
+  I2CDevice: /dev/i2c-1
