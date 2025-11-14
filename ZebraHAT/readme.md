@@ -10,5 +10,8 @@ sudo apt install meshtasticd
 At the "Meshtasticd Configuration" step, use this command to install the config file:
 
 ```
-wget -O /etc/meshtasticd/config.d/ZebraHAT.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/ZebraHAT.yaml
+sudo wget -O /etc/meshtasticd/config.d/ZebraHat.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/ZebraHat.yaml
 ```
+ZebraHAT/ZebraHat.yaml
+
+sudo wget -O /etc/meshtasticd/config.d/ZebraHat.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/ZebraHat.yaml
