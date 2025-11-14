@@ -5,7 +5,7 @@ Lora:
   DIO2_AS_RF_SWITCH: true
   DIO3_TCXO_VOLTAGE: true
   SX126X_MAX_POWER: 18 
-  CS: 8 # Depending on how you set up the overlays you dont need this
+  CS: 24
   IRQ: 22
   Busy: 27
   Reset: 17
