@@ -4,7 +4,7 @@ Lora:
   Module: sx1262  # Nebra SX1262 Pi Hat - 2W
   DIO2_AS_RF_SWITCH: true
   DIO3_TCXO_VOLTAGE: true
-  SX126X_MAX_POWER: 10
+  SX126X_MAX_POWER: 18
   spidev: spidev0.0
 #  CS: 8 # Depending on how overlay is setup 
   IRQ: 24
