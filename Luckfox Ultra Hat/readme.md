@@ -6,6 +6,12 @@ This is a amiture radio x1262 hat for the Luckfox Ultra seres of SBC's. It's con
 
 ![Photo of Luckfox Ultra Hats](/static/IMG_3499.jpeg)
 
+## Versions
+
+V1: Basic 1W E22
+V2: 2W radio with external filter 
+V3: 1W FCC marked radio with fantastic internal filters, AT20 temp/humidity sensor, and GPS/I2C expansion headers
+
 ## How to Buy
 
 [![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/MPGLQUXB9TF82)
