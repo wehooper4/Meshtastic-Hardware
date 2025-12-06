@@ -21,9 +21,7 @@ This is a simple “dumb” radio module. The software or "firmware" to drive it
 
 ## How to Buy
 
-[![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/PNLGPG7BGGWL6)
-
-This product is made available via a secure PayPal checkout.
+This product has been discontinued
 
 ## Raspberry Pi 40-Pin Header Pinout (HAT)
 
@@ -142,3 +140,10 @@ This is **Amateur Radio equipment** under FCC Part 97.
 * It is not certified for unlicensed operation.
 * Users must comply with all applicable regulations in their jurisdiction.
 * While compatible with Meshtastic firmware, operation in the United States requires compliance with FCC Part 97 rules.
+
+## License
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+[![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**In plain English:** You are free to use and modify these designs for personal projects and to manufacture boards for yourself. However, you **may not** sell or distribute these designs or any boards made from them for any reason without my explicit written permission.
