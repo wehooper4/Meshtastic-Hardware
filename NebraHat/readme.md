@@ -35,9 +35,7 @@ If you wish to keep the original USB hub for wifi or other uses, you can assembl
 
 ## How to Buy
 
-[![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/JJFE6EMD4NHP2)
-
-This product is made available via a secure PayPal checkout.
+This has been superseeded by the Zebra hat
 
 ## SX1262 Power Setting to Output Power Table
 
