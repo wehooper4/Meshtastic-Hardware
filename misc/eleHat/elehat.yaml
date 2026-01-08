@@ -1,5 +1,3 @@
-# https://github.com/wehooper4/Meshtastic-Hardware/tree/main/NebraHat
-# Use for 1 watt hat
 Lora:
   Module: sx1262  # Zelehat SX1262 Pi Hat
   DIO2_AS_RF_SWITCH: true
