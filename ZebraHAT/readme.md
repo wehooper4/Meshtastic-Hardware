@@ -84,6 +84,30 @@ sudo apt install pipx && pipx install "meshtastic[cli]"
 pipx ensurepath
 ```
 
+## Meshcore Usage
+
+pyMC configuration as follows:
+```
+sx1262:
+  # SPI bus and chip select
+  bus_id: 0
+  cs_id: 0
+  # GPIO pins (BCM numbering)
+  cs_pin: 24
+  reset_pin: 17
+  busy_pin: 27
+  irq_pin: 22
+  # TX/RX enable pins (-1 to disable)
+  txen_pin: -1
+  rxen_pin: -1
+  # LED pins for TX/RX indication (-1 to disable)
+  txled_pin: -1
+  rxled_pin: -1
+  use_dio3_tcxo: true
+  tx_power: 18
+  # Waveshare hardware flag
+  is_waveshare: false
+```
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
