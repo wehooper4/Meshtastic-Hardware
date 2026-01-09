@@ -1,31 +1,53 @@
+# Zebra Hat: 915MHz LoRa Development Board
 
 ## Overview
 
-This is a 915MHz SX1262 development board for Amateur Radio (Part 97) use, designed in a Raspberry Pi HAT form factor. It's compatible with the Raspberry Pi 2-5, Nebra Outdoor miner, and other SBCs with Pi-compatible pinouts.
+The Zebra Hat lineup consists of high-performance 915MHz SX1262 development boards designed in a Raspberry Pi HAT form factor. It is compatible with the Raspberry Pi 2-5, Nebra Outdoor miner, and other SBCs with Pi-compatible pinouts.
 
-The radio module used has a high perfomance 915mhz/33cm band RF bandpass filter built in, eleminating the need for bulky and expensive cavity filters to eleminate out of band interfearece from cell towers or UHF TV stations.
+The board is available in two variants to suit different operational needs:
 
-This is a simple “dumb” radio module; the software or "firmware" to drive it runs as an application on the host Raspberry Pi. This gives the end operator the ability to use this with their favorite open-source amateur radio projects (Meshtastic, Lora-APRS, etc.) or develop their own experimental radio software.
+* **1 Watt Version:** Optimized for general open-source mesh networking. The radio module features a high-performance 915MHz/33cm band RF bandpass filter built-in. This eliminates the need for bulky and expensive cavity filters to remove out-of-band interference from cell towers or UHF TV stations.
+* **2 Watt Version:** A high-power variant designed exclusively for Amateur Radio (Ham) applications. No extra filtering is onboard; it is recommended to use external bandpass filters for optimal performance.
 
-This is a pin-compatible drop-in board for the Nebra miner and does not require bodge wires to work like other hats do.
+As a “dumb” radio module, the firmware to drive it runs as an application on the host Raspberry Pi. This gives operators the flexibility to use the hardware with their favorite open-source projects or develop custom experimental radio software.
 
+## Use Cases
+
+### 1 Watt Model
+The 1W version is intended for a wide range of open-source mesh networking projects, including:
+* **Meshtastic**
+* **Meshcore**
+* **Open Source Mesh** projects and experimental data networks.
+
+### 2 Watt Model
+The 2W version is restricted to **Amateur Radio use only**, regardless of the software power level settings. It is designed for:
+* **Meshtastic (Ham Mode)**
+* **LoRa-APRS**
+* **High-power Ham Radio** digital experiments.
 
 ## Hardware Features
 
-**1 Watt Radio Hat**
-* 1 Watt E22P 900MHz LoRa radio with TCXO, FEM with both PA and LNA, RF Filtering
-  * 902-926mhz Bandpass built in (RX: SAW filter pre LNA, SAW filter post LNA. TX: SAW filter pre-PA, lowpass filter post PA)
-* Indirect lightning/ESD protection (Polymer device off E22)
-* 5V+ Power Rail Filtering
-* AHT20 Temperature/Humidity Sensor
-* I2C Socket
-* GPS Socket
-* TX indicator LED
-* HAT+ Compatable EEPROM (not yet active)
-* Solderless header
-
+### 1 Watt Radio Hat
+* **Radio:** 1 Watt E22P 915MHz LoRa radio with TCXO.
+  * **Frontend:** FEM with both PA and LNA.
+  * **Filtering:** 902-926MHz Bandpass built-in (RX: SAW filter pre-LNA, SAW filter post-LNA; TX: SAW filter pre-PA, Lowpass filter post-PA).
+* **Protection:** Indirect lightning/ESD protection (Polymer device off E22P).
+* **Power:** 5V+ Power Rail Filtering.
+* **Sensors:** AHT20 Temperature/Humidity Sensor.
+* **Expansion:** I2C Socket and GPS Socket.
+* **Visuals:** TX indicator LED.
+* **Extras:** HAT+ Compatible EEPROM (not yet active), Solderless header.
 ![Photo of Zebra Hat V1](/static/IMG_3882.jpeg)
 
+### 2 Watt Radio Hat (Amateur Radio Only)
+* **Radio:** 2 Watt E22 33CM LoRa radio with TCXO.
+  * **Frontend:** Discrete 33dBm+ PA and LNA.
+* **Protection:** Indirect lightning/ESD protection (Polymer device off E22).
+* **Power:** 5V+ Power Rail Filtering.
+* **Sensors:** AHT20 Temperature/Humidity Sensor.
+* **Expansion:** I2C Socket and GPS Socket.
+* **Visuals:** TX indicator LED.
+* **Extras:** HAT+ Compatible EEPROM (not yet active), Solderless header.
 
 
 ## How to Buy
@@ -71,8 +93,9 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 **In plain English:** You are free to use and modify these designs for personal projects and to manufacture boards for yourself. However, you **may not** sell or distribute these designs or any boards made from them for any reason without my explicit written permission.
 
 ## Legal Notice
-This is **Amateur Radio equipment** under FCC Part 97.
 
-* It is not certified for unlicensed operation.
-* Users must comply with all applicable regulations in their jurisdiction.
-* While compatible with Meshtastic firmware, operation in the United States requires compliance with FCC Part 97 rules.
+**1 Watt Version:** Designed for standard open-source mesh networking. Users are responsible for complying with all local regulations regarding frequency use, power output, and antenna gain in their specific jurisdiction.
+
+**2 Watt Version:** This is **Amateur Radio equipment** under FCC Part 97. It is not intended for unlicensed operation. Use of the 2W model, regardless of power settings, requires a valid Amateur Radio license and compliance with part 97 operation.
+
+**Compliance:** The end-user is solely responsible for ensuring that their hardware and software configurations comply with the laws of their local region.
