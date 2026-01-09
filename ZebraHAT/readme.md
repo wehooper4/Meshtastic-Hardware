@@ -15,14 +15,12 @@ This is a pin-compatible drop-in board for the Nebra miner and does not require 
 **1 Watt Radio Hat**
 * 1 Watt E22P 900MHz LoRa radio with TCXO, FEM with both PA and LNA, RF Filtering
   * 902-926mhz Bandpass built in (RX: SAW filter pre LNA, SAW filter post LNA. TX: SAW filter pre-PA, lowpass filter post PA)
-  * 902-926mhz pass band
 * Indirect lightning/ESD protection (Polymer device off E22)
 * 5V+ Power Rail Filtering
 * AHT20 Temperature/Humidity Sensor
 * I2C Socket
 * GPS Socket
 * TX indicator LED
-* External RX/TX indicator header support
 * HAT+ Compatable EEPROM (not yet active)
 * Solderless header
 
