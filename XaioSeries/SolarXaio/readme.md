@@ -19,3 +19,11 @@ Every SolarXaio version shares a common feature set:
 | **Base** | CN3791 Vmpp | 1.2A | A direct Vmpp charging solution for standard deployments. | 
 | **Advanced** | TI BQ24650 Vmpp | 2.0A | High-efficiency charging featuring thermal protection and optional **4.0V max charge mode** for extended calendar life. | 
 | **MPPT** | True MPPT | 3.2A | **Maximum Power Point Tracking** (MPPT) actively sweeps the panel to find the optimal operating point multiple times per hour. Includes **active temperature compensation** for improved cell lifespan. |
+
+
+## Accessories
+
+The SolarXaio has kept the same physical footprint from the orginal version. As such accessories have been made by other makers to work with them.
+
+
+rak unify enclosure mount:  https://www.printables.com/model/1552936-rak-unify-enclosure-solarxaio-mounting-plate
