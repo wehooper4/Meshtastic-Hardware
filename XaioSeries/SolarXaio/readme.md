@@ -20,6 +20,29 @@ Every SolarXaio version shares a common feature set:
 | **Advanced** | TI BQ24650 Vmpp | 2.0A | High-efficiency charging featuring thermal protection and optional **4.0V max charge mode** for extended calendar life. | 
 | **MPPT** | True MPPT | 3.2A | **Maximum Power Point Tracking** (MPPT) actively sweeps the panel to find the optimal operating point multiple times per hour. Includes **active temperature compensation** for improved cell lifespan. |
 
+## Lora Radio Versions
+
+### E22P-915M30S - "+" 1W Boards
+  * **Useage:** FCC certified rado module, usable on Meshtastic, Meshcore, Lora APRS, ect
+  * **Frontend:** FEM with intigrated PA and LNA.
+  * **Filtering:** 902-926MHz Bandpass built-in (RX: SAW filter pre-LNA, SAW filter post-LNA; TX: SAW filter pre-PA, Lowpass filter post-PA).
+  * **Power Setting:** Set to 18dbm for optimal 30dbm output. 22dbm won't damage it, but will be less efficient.
+
+### E22-900M30S - Legacy 1W Boards
+  * **Useage:** Not part 15 certified, ham use only. Meshtastic HAM mode, lora APRS, ect.
+  * **Frontend:** Descrete PA and LNA.
+  * **Power Setting:** Set to 22dbm for optimal 30dbm output.
+
+### E22-900M33S - 2W 33CM Ham Boards
+  * **Useage:** Not part 15 certified, ham use only. Meshtastic HAM mode, lora APRS, ect.
+  * **Frontend:** Descrete PA and LNA.
+  * **Power Setting:** Set to 8 dbm for optimaly 33dmb output. **WARNING** Failue to set the power level it 8 or lower **WILL DESTORY THE RADIO**.
+  * **Power Output Table:** https://github.com/wehooper4/Meshtastic-Hardware/tree/main/NewtPi#sx1262-power-setting-to-output-power-table
+
+### E22-400M33S - 2W 70CM Ham Boards
+  * **Useage:** HAM ONLY, for use on Meshtastic HAM mode, lora APRS, ect.
+  * **Frontend:** Descrete PA and LNA.
+  * **Power Setting:** Set to 8 dbm for optimaly 33dmb output. **WARNING** Failue to set the power level it 8 or lower **WILL DESTORY THE RADIO**.
 
 ## Accessories
 
