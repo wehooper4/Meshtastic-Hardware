@@ -12,7 +12,7 @@ Every SolarXaio version shares a common feature set:
 
 * **Dedicated Solar Charging:** A circuit architectures designed specifically for PV applications, not as an afterthought addon to USB charging to check a capability box.
 
-## Variants
+## Board Variants
 
 | Variant | Charger Technology | Max Charge Rate | Key Feature Differentiators | 
  | ----- | ----- | ----- | ----- | 
