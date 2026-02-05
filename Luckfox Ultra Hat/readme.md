@@ -19,7 +19,7 @@ V3: 1W FCC marked radio with fantastic internal filters, AT20 temp/humidity sens
 
 [![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/MPGLQUXB9TF82)
 
-This product is made available via a secure PayPal checkout.
+This product is made available via a secure PayPal checkout. (No shipping to Europe)
 
 ## Porkcube the ledgand
 
