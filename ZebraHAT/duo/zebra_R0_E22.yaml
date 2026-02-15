@@ -6,9 +6,9 @@ Lora:
   DIO3_TCXO_VOLTAGE: true
   spidev: spidev0.0
 #  CS: 8 # Depending on how overlay is setup 
-  IRQ: 24
-  Busy: 23
-  Reset: 22
+  IRQ: 22
+  Busy: 27
+  Reset: 17
   RXen: 25
 #I2C:
 #  I2CDevice: /dev/i2c-1
