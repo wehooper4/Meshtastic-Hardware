@@ -9,5 +9,6 @@ Lora:
   IRQ: 22
   Busy: 27
   Reset: 17
+  RXen: 25
 I2C:
   I2CDevice: /dev/i2c-1
