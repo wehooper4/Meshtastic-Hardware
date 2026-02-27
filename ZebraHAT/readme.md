@@ -86,8 +86,10 @@ pipx ensurepath
 
 ## Meshcore Usage
 
-pyMC configuration as follows:
+pyMC configuration (installed by default at `/etc/pymc_repeater/config.yaml`) as follows:
 ```
+radio:
+   tx_power: 18
 sx1262:
   # SPI bus and chip select
   bus_id: 0
@@ -104,7 +106,6 @@ sx1262:
   txled_pin: -1
   rxled_pin: -1
   use_dio3_tcxo: true
-  tx_power: 18
   # Waveshare hardware flag
   is_waveshare: false
 ```
