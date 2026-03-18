@@ -56,7 +56,7 @@ The 2W version is restricted to **Amateur Radio use only**, regardless of the so
 
 
 
-This product is made available via a secure PayPal checkout.
+This product is made available to USA addresses only via a secure PayPal checkout.
 
 
 
