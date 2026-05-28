@@ -16,7 +16,7 @@ As a “dumb” radio module, the firmware to drive it runs as an application on
 ### 1 Watt Model
 The 1W version is intended for a wide range of open-source mesh networking projects, including:
 * **Meshtastic**
-* **Meshcore**
+* **Meshcore** (pyMC)
 * **Open Source Mesh** projects and experimental data networks.
 
 ### 2 Watt Model
