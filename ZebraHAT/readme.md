@@ -1,5 +1,7 @@
 # Zebra Hat: 915MHz LoRa Development Board
 
+[**Dual radio Version Information**](https://github.com/wehooper4/Meshtastic-Hardware/blob/main/ZebraHAT/duo/readme.md)
+
 ## Overview
 
 The Zebra Hat lineup consists of high-performance 915MHz SX1262 development boards designed in a Raspberry Pi HAT form factor. It is compatible with the Raspberry Pi 2-5, Nebra Outdoor miner, and other SBCs with Pi-compatible pinouts.
