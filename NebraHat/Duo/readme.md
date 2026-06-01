@@ -17,14 +17,14 @@ Run a wire as shown below on the bottom of the motherboard.
 * E22P-915M30S 1W SX1262 filtered radio on SPI0.0
 * E80-xxxxxxx LR1121 dual band radio on SPI0.1
 * SHT20 Temperature and Humidity Sensor
-* GPS Header (PPS on GPIO18)
+* GPS Header (PPS on GPIO4)
 
 ### Nebra Duo Pro
 
 * E22P-915M30S 1W SX1262 filtered Primary Radio on SPI0.0 w/MMCX connector
 * E22P-915M30S 1W SX1262 filtered Primary Radio on SPI0.1 w/MMCX connector
 * SHT20 Temperature and Humidity Sensor
-* GPS Header (PPS on GPIO18)
+* GPS Header (PPS on GPIO4)
 * Dual Stage Lightning protection - 300V 0.5 KA gas tube + 1000v DC Blocking cap + 18V 4A 8/20us foldback technology TVS diode
 * Ground Bounce Protection (power rail TVS diodes + GPIO resistors)
 
