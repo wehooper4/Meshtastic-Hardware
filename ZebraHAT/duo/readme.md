@@ -168,30 +168,3 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 **Compliance:** The end-user is solely responsible for ensuring that their hardware and software configurations comply with the laws of their local region.
 
 
-
-
-
-
-new
-
-```
-sudo wget -O /etc/meshtasticd/config.d/zebra_R1_E22.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R1_E22.yaml
-```
-
-
-```
-sudo wget -O /etc/meshtasticd/config.d/zebra_R0_E22P.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R0_E22P.yaml
-```
-
-
-
-
-old
-```
-sudo wget -O /etc/meshtasticd/config.d/zebra_R0_E22.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R0_E22.yaml
-```
-
-
-```
-sudo wget -O /etc/meshtasticd/config.d/zebra_R1_E22P.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R1_E22P.yaml
-```
