@@ -60,13 +60,8 @@ The 70CM version is restricted to **Amateur Radio use only**, regardless of the 
 
 ## How to Buy
 
-[![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/VVUL26AHN7LE8)
-
-
-
 This product is made available to USA addresses only via a secure PayPal checkout.
-
-
+[![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/JTVUV82QJWQPU)
 
 ## Meshtastic Usage
 
