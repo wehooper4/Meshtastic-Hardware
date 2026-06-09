@@ -168,3 +168,12 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 **Compliance:** The end-user is solely responsible for ensuring that their hardware and software configurations comply with the laws of their local region.
 
 
+## Nebra Outdoor Miner CS1 Enable
+
+The Nebra outdoor miner is missing a wire to enable the second SPI device on the primary spi bus. To use this hat with a Nebra outdoor miner, a minior modfication is needed. This is only required on the Nebra outdoor miner, no other platforms.
+
+Run a wire as shown below on the bottom of the motherboard.
+
+![Bodge Wire](/static/nebra_bodge.png)
+
+(Thanks Matt for the diagram and instructions!)
