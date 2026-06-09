@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Zebra Duo lineup consists of dual SX1262 radio development boards designed in a Raspberry Pi HAT form factor. It is compatible with the Raspberry Pi 2-5, Nebra Outdoor miner, and other SBCs with Pi-compatible pinouts.
+The Zebra Duo lineup consists of dual SX1262 radio development boards designed in a Raspberry Pi HAT form factor. It is compatible with the Raspberry Pi 2-5, Nebra Outdoor miner, and other SBCs with Pi-compatible pinouts. Using two radios allowes Meshtastic muti pread factor bridging, or running multiple mesh protocols on the same host.
 
 The board is available in two variants:
 
@@ -17,6 +17,7 @@ As a “dumb” radio module, the firmware to drive it runs as an application on
 The 1W version is intended for a wide range of open-source mesh networking projects, including:
 * **Meshtastic**
 * **Meshcore** (pyMC)
+* **Meshtastic Bridging**
 * **Open Source Mesh** projects and experimental data networks.
 
 ### 70 CM
@@ -43,10 +44,11 @@ The 70CM version is restricted to **Amateur Radio use only**, regardless of the 
 ![Photo of Zebra Hat V1](/static/IMG_3882.jpeg)
 
 ### 915MHz + 70 CM (Amateur Radio Only)
-* **Radio 0:** 2 Watt E22 33CM LoRa radio with TCXO.
-  * **Frontend:** Discrete 33dBm+ PA and LNA.
-* **Radio 1:** 2 Watt E22 33CM LoRa radio with TCXO.
-  * **Frontend:** Discrete 33dBm+ PA and LNA.
+* **Radio 0:** 1 Watt E22 70CM LoRa radio with TCXO.
+  * **Frontend:** Discrete 30dBm PA and LNA.
+** **Radio 1:** 1 Watt E22P 915MHz LoRa radio with TCXO.
+  * **Frontend:** FEM with both PA and LNA.
+  * **Filtering:** 902-926MHz Bandpass built-in (RX: SAW filter pre-LNA, SAW filter post-LNA; TX: SAW filter pre-PA, Lowpass filter post-PA).
 * **Protection:** Indirect lightning/ESD protection (polymer ESD protection off radios).
 * **Power:** 5V+ Power Rail Filtering, quad bulk caps
 * **Sensors:** AHT20 Temperature/Humidity Sensor.
@@ -76,15 +78,21 @@ sudo apt update
 sudo apt install meshtasticd
 ```
 
-At the "Meshtasticd Configuration" step, use this command to install the config file:
+At the "Meshtasticd Configuration" step, use this command to install the config file for the radio you want to assign to meshtasticd:
 
+Radio 0 (SPI0.0) 915Mhz E22P
+```
+sudo wget -O /etc/meshtasticd/config.d/zebra_R1_E22.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R0_E22.yaml
+```
+
+Radio 1 (SPI0.1) 70CM E22
 ```
 sudo wget -O /etc/meshtasticd/config.d/zebra_R1_E22.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R1_E22.yaml
 ```
 
-
+Radio 1 (SPI0.1) 915Mhz E22P
 ```
-sudo wget -O /etc/meshtasticd/config.d/zebra_R0_E22P.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R0_E22P.yaml
+sudo wget -O /etc/meshtasticd/config.d/zebra_R0_E22P.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R1_E22P.yaml
 ```
 
 Install Meshtastic CLI (for your sanity):
@@ -93,9 +101,16 @@ sudo apt install pipx && pipx install "meshtastic[cli]"
 pipx ensurepath
 ```
 
+If using the 70CM radio, make sure ham mode is enabled:
+```
+meshtastic --set-ham 'CALLSIGN'
+```
+
 ## Meshcore Usage
 
 pyMC configuration (installed by default at `/etc/pymc_repeater/config.yaml`) as follows:
+
+Radio 0 (SPI0.0) 915Mhz E22P
 ```
 radio:
    tx_power: 18
@@ -104,20 +119,39 @@ sx1262:
   bus_id: 0
   cs_id: 0
   # GPIO pins (BCM numbering)
-  cs_pin: 24
+  cs_pin: -1
+  reset_pin: 18
+  busy_pin: 23
+  irq_pin: 24
+  # TX/RX enable pins (-1 to disable)
+  txen_pin: -1
+  rxen_pin: -1
+  use_dio3_tcxo: true
+  # Waveshare hardware flag
+  is_waveshare: false
+```
+Radio 1 (SPI0.1) 915Mhz E22P
+```
+radio:
+   tx_power: 18
+sx1262:
+  # SPI bus and chip select
+  bus_id: 0
+  cs_id: 0
+  # GPIO pins (BCM numbering)
+  cs_pin: -1
   reset_pin: 17
   busy_pin: 27
   irq_pin: 22
   # TX/RX enable pins (-1 to disable)
   txen_pin: -1
   rxen_pin: -1
-  # LED pins for TX/RX indication (-1 to disable)
-  txled_pin: -1
-  rxled_pin: -1
   use_dio3_tcxo: true
   # Waveshare hardware flag
   is_waveshare: false
 ```
+
+
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
