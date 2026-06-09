@@ -50,7 +50,7 @@ The 2W version is restricted to **Amateur Radio use only**, regardless of the so
 * **Expansion:** I2C Socket and GPS Socket.
 * **Visuals:** TX indicator LED.
 * **Extras:** HAT+ Compatible EEPROM (not yet active), Solderless header.
-
+![Photo of Zebra Hat V1](/static/IMG_5162.jpeg)
 
 ## How to Buy
 
@@ -84,6 +84,21 @@ Install Meshtastic CLI (for your sanity):
 ```
 sudo apt install pipx && pipx install "meshtastic[cli]"
 pipx ensurepath
+```
+
+### 2W Board configuration
+Warning, if the power level is not set to "8" or lower the PA will be damaged. This config step ensures the limits are set and ham mode is enabled.
+```
+sudo wget -O /etc/meshtasticd/config.d/ZebraHat_2W.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/ZebraHat_2W.yaml
+```
+Install Meshtastic CLI:
+```
+sudo apt install pipx && pipx install "meshtastic[cli]"
+pipx ensurepath
+```
+Enable ham mode
+```
+meshtastic --set-ham 'CALLSIGN'
 ```
 
 ## Meshcore Usage
