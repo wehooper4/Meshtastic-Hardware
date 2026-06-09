@@ -40,7 +40,7 @@ The 70CM version is restricted to **Amateur Radio use only**, regardless of the 
 * **Protection:** Indirect lightning/ESD protection (Snapback IEC 6100-4-5 rated TVS off E22P).
 * **Power:** 5V+ Power Rail Filtering.
 * **Sensors:** AHT20 Temperature/Humidity Sensor.
-* **Expansion:** GPS Socket.
+* **Expansion:** GPS Socket. [ATGM336H Module Recomended](https://muzi.works/products/gps-module-atgm336h)
 * **Visuals:** TX indicator LED.
 * **Extras:**  Solderless header.
 ![Photo of Zebra Hat V1](/static/IMG_5161.jpeg)
