@@ -14,6 +14,7 @@ V2: 2W radio with external filter
 
 V3: 1W FCC marked radio with fantastic internal filters, AT20 temp/humidity sensor, and GPS/I2C expansion headers
 
+V3.1: Same as V3 but with I2C lines rolled to support onboard RTC at the same time as the AHT20 sensor
 
 ## How to Buy
 
