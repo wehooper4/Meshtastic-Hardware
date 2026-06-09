@@ -81,7 +81,7 @@ At the "Meshtasticd Configuration" step, use this command to install the config 
 
 Radio 0 (SPI0.0) 915Mhz E22P
 ```
-sudo wget -O /etc/meshtasticd/config.d/zebra_R1_E22.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R0_E22.yaml
+sudo wget -O /etc/meshtasticd/config.d/zebra_R0_E22P.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R0_E22P.yaml
 ```
 
 Radio 1 (SPI0.1) 70CM E22
@@ -91,7 +91,7 @@ sudo wget -O /etc/meshtasticd/config.d/zebra_R1_E22.yaml https://github.com/weho
 
 Radio 1 (SPI0.1) 915Mhz E22P
 ```
-sudo wget -O /etc/meshtasticd/config.d/zebra_R0_E22P.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R1_E22P.yaml
+sudo wget -O /etc/meshtasticd/config.d/zebra_R1_E22P.yaml https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/duo/zebra_R1_E22P.yaml
 ```
 
 Install Meshtastic CLI (for your sanity):
