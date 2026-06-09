@@ -4,6 +4,8 @@
 
 The Zebra Duo lineup consists of dual SX1262 radio development boards designed in a Raspberry Pi HAT form factor. It is compatible with the Raspberry Pi 2-5, Nebra Outdoor miner, and other SBCs with Pi-compatible pinouts. Using two radios allowes Meshtastic muti pread factor bridging, or running multiple mesh protocols on the same host.
 
+![Photo of Zebra Hat V1](/static/IMG_5159.jpeg)
+
 The board is available in two variants:
 
 * **Dual 915mhz:** Optimized for general open-source mesh networking. The radio module features a high-performance 915MHz/33cm band RF bandpass filter built-in. This eliminates the need for bulky and expensive cavity filters to remove out-of-band interference from cell towers or UHF TV stations.
@@ -41,7 +43,7 @@ The 70CM version is restricted to **Amateur Radio use only**, regardless of the 
 * **Expansion:** GPS Socket.
 * **Visuals:** TX indicator LED.
 * **Extras:**  Solderless header.
-![Photo of Zebra Hat V1](/static/IMG_3882.jpeg)
+![Photo of Zebra Hat V1](/static/IMG_5161.jpeg)
 
 ### 915MHz + 70 CM (Amateur Radio Only)
 * **Radio 0:** 1 Watt E22 70CM LoRa radio with TCXO.
@@ -54,7 +56,7 @@ The 70CM version is restricted to **Amateur Radio use only**, regardless of the 
 * **Sensors:** AHT20 Temperature/Humidity Sensor.
 * **Visuals:** TX indicator LED. 70CM RX indicator.
 * **Extras:**  Solderless header.
-
+![Photo of Zebra Hat V1](/static/IMG_5160.jpeg)
 
 ## How to Buy
 
