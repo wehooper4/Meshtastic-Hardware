@@ -36,7 +36,7 @@ The 2W version is restricted to **Amateur Radio use only**, regardless of the so
 * **Protection:** Indirect lightning/ESD protection (Polymer device off E22P).
 * **Power:** 5V+ Power Rail Filtering.
 * **Sensors:** AHT20 Temperature/Humidity Sensor.
-* **Expansion:** I2C Socket and GPS Socket.
+* **Expansion:** I2C Socket and GPS Socket. [ATGM336H Module Recomended](https://muzi.works/products/gps-module-atgm336h)
 * **Visuals:** TX indicator LED.
 * **Extras:** HAT+ Compatible EEPROM (not yet active), Solderless header.
 ![Photo of Zebra Hat V1](/static/IMG_3882.jpeg)
@@ -47,7 +47,7 @@ The 2W version is restricted to **Amateur Radio use only**, regardless of the so
 * **Protection:** Indirect lightning/ESD protection (Polymer device off E22).
 * **Power:** 5V+ Power Rail Filtering.
 * **Sensors:** AHT20 Temperature/Humidity Sensor.
-* **Expansion:** I2C Socket and GPS Socket.
+* **Expansion:** I2C Socket and GPS Socket. [ATGM336H Module Recomended](https://muzi.works/products/gps-module-atgm336h)
 * **Visuals:** TX indicator LED.
 * **Extras:** HAT+ Compatible EEPROM (not yet active), Solderless header.
 ![Photo of Zebra Hat V1](/static/IMG_5162.jpeg)
