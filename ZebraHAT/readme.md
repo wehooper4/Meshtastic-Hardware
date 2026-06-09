@@ -53,14 +53,14 @@ The 2W version is restricted to **Amateur Radio use only**, regardless of the so
 ![Photo of Zebra Hat V1](/static/IMG_5162.jpeg)
 
 ## How to Buy
-
-[![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/VVUL26AHN7LE8)
-
-
-
 This product is made available to USA addresses only via a secure PayPal checkout.
 
+### Zebra Hat 1W Purchase Button
+[![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/VVUL26AHN7LE8)
 
+### Zebra Hat 2W Purchase Button
+[![PayPal Button](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/ncp/payment/5H3M8W3V9G8FS)
+You ham call will be required at checkout
 
 ## Meshtastic Usage
 
