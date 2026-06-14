@@ -136,7 +136,7 @@ radio:
 sx1262:
   # SPI bus and chip select
   bus_id: 0
-  cs_id: 0
+  cs_id: 1
   # GPIO pins (BCM numbering)
   cs_pin: -1
   reset_pin: 17
