@@ -16,14 +16,14 @@ Lora:
       - LOW
       - LOW
     MODE_RX:
-      - HIGH
       - LOW
+      - HIGH
     MODE_TX:
       - HIGH
       - HIGH
     MODE_TX_HP:
-      - LOW
       - HIGH
+      - LOW
     MODE_TX_HF:
       - LOW
       - LOW
