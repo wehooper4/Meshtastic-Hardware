@@ -119,9 +119,9 @@ sx1262:
   cs_id: 0
   # GPIO pins (BCM numbering)
   cs_pin: -1
-  reset_pin: 18
+  reset_pin: 24
   busy_pin: 23
-  irq_pin: 24
+  irq_pin: 18
   # TX/RX enable pins (-1 to disable)
   txen_pin: -1
   rxen_pin: -1
@@ -136,7 +136,7 @@ radio:
 sx1262:
   # SPI bus and chip select
   bus_id: 0
-  cs_id: 0
+  cs_id: 1
   # GPIO pins (BCM numbering)
   cs_pin: -1
   reset_pin: 17
